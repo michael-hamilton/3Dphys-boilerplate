@@ -1,0 +1,7 @@
+.parcel-cache
+dist
+.DS_Store
+.idea
+node_modules
+release
+src-tauri/target

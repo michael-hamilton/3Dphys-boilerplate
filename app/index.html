@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Sandbox</title>
+
+  <style>
+    *, * * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    html, body, #root {
+      height: 100%;
+      overflow: hidden;
+      width: 100%;
+    }
+
+    #info-panel {
+      background-color: rgba(0,0,0,0.75);
+      color: white;
+      font-family: sans-serif;
+      left: 10px;
+      top: 10px;
+      padding: 10px;
+      position: absolute;
+      width: 200px;
+      z-index: 999;
+    }
+
+    #info-panel p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <div id="info-panel">
+      <div id="parameter-readout"></div>
+
+      <hr>
+
+      <div id="info-readout"></div>
+    </div>
+  </div>
+  <script src="scene.js" type="module"></script>
+</body>
+</html>
