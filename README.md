@@ -80,11 +80,11 @@ E.createAmbientLight(
 );
 ```
 
-Spot lights are light which is focused in a certain direction and will cause objects to cast shadoes.
+Spot lights are focused in a certain direction and will cause objects to cast shadoes.
 #### Creating A Spot Light
 ```javascript
 E.createSpotLight(
-  0xffffff,// hex color
+  0xffffff, // hex color
   1, // intensity (0-1.0)
   {x: -10, y: 25, z: -10}, // x, y, z position parameters
   {x: 0, y: 0, z: 0} // x, y, z position to point to
