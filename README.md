@@ -17,6 +17,7 @@ To use the engine first import it, then create a new instance of it by providing
 Lastly execute the `init()` method (note this method is asynchronous). 
 ```javascript
 import Engine from './lib/Engine'
+import { $ } from './lib/util';
 
 (async () => {
   const E = new Engine($('root'));
