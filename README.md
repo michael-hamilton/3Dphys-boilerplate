@@ -10,7 +10,7 @@ A development server can be started by running `npm run dev`. The app is availab
 The app can be bundled for release by running `npm run build`. The output can be found in the `/dist` directory.
 
 ## Engine Usage
-The "engine" (located at `app/lib/Engine.js`) facilitates rendering 3D objects with Three.js and simulating physics with Ammo.js (a direct port of Bullet).
+The engine (located at `app/lib/engine.js`) facilitates rendering 3D objects with Three.js and simulating physics with Ammo.js (a direct port of Bullet).
 Example usage of the engine's features as described here can be seen in `app/scene.js`.
 
 To use the engine first import it, then create a new instance of it by providing a DOM element for the renderer to attach to.
@@ -44,7 +44,7 @@ E.createBox(
 #### Creating A Capsule
 
 ```javascript
-E.capsule(
+E.createCapsule(
   1, // radius,
   1, // length
   {x: 1, y: 1, z: 1}, // x, y, z position parameters
@@ -58,7 +58,7 @@ E.capsule(
 #### Creating A Sphere
 
 ```javascript
-E.sphere(
+E.createSphere(
   1, // radius,
   {x: 1, y: 1, z: 1}, // x, y, z position parameters
   {x: 0, y: 0, z: 0, w: 1}, // x, y, z, z rotation quaternion
