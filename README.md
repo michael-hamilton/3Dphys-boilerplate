@@ -1,4 +1,4 @@
-# JS Boilerplate For 3D Rendering With Physics
+# [JS Engine For 3D Rendering With Physics](https://miska.me/projects/phys-boilerplate/)
 
 ## Getting Started
 Run `npm i` to install dependencies.
@@ -80,7 +80,7 @@ E.createAmbientLight(
 );
 ```
 
-Spot lights are focused in a certain direction and will cause objects to cast shadoes.
+Spot lights are focused in a certain direction and will cause objects to cast shadows.
 #### Creating A Spot Light
 ```javascript
 E.createSpotLight(
