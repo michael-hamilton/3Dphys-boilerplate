@@ -4,8 +4,8 @@
  */
 
 import * as THREE from 'three';
-import * as AmmoLib from './ammo';
-import { $, getChildElementsByName } from './util';
+import * as AmmoLib from './ammo.js';
+import { $, getChildElementsByName } from './util.js';
 
 class Engine {
   constructor(root) {

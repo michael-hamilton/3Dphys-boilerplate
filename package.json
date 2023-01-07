@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "parcel build app/index.html",
+    "build": "parcel build app/index.html --public-url ./",
     "dev": "parcel app/index.html"
   },
   "keywords": [],

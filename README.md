@@ -1,4 +1,4 @@
-# [JS Engine For 3D Rendering With Physics](https://miska.me/projects/js3d-phys/)
+# [JS Engine For 3D Rendering With Physics](https://miska.me/static/projects/js3d-phys/dist/index.html)
 
 ## Getting Started
 Run `npm i` to install dependencies.

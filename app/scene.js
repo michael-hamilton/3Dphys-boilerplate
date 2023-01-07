@@ -2,8 +2,8 @@
  * 3D physics scene
  */
 
-import Engine from './lib/Engine';
-import { $, random8BitColor, randomFloat, randomInt } from './lib/util';
+import Engine from './lib/Engine.js';
+import { $, random8BitColor, randomFloat, randomInt } from './lib/util.js';
 
 (async () => {
   const E = new Engine($('root'));
